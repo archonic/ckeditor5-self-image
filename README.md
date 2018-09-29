@@ -1,6 +1,6 @@
 ## CKEditor5 Self Image
 
-Self Image replicates the API of EasyImage which makes it easier to switch to an upload solution you host yourself. Originally forked from (ckeditor5-simple-upload)[https://github.com/pourquoi/ckeditor5-simple-upload].
+Self Image replicates the API of EasyImage which makes it easier to switch to an upload solution you host yourself. Originally forked from [ckeditor5-simple-upload](https://github.com/pourquoi/ckeditor5-simple-upload).
 
 ```npm install ckeditor5-self-image```
 
