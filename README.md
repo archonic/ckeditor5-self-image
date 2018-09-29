@@ -14,12 +14,12 @@ module.exports = {
   plugins: [
     '@ckeditor/ckeditor5-essentials/src/essentials',
     // ...
-		//'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
-		//'@ckeditor/ckeditor5-easy-image/src/easyimage',
+    //'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
+    //'@ckeditor/ckeditor5-easy-image/src/easyimage',
 
-		'ckeditor5-self-image/src/self-image'
-		// ...
-	],
+    'ckeditor5-self-image/src/self-image'
+    // ...
+  ],
 
   // ...
 
