@@ -1,28 +1,23 @@
 {
-  "name": "ckeditor5-simple-upload",
-  "version": "1.0.3",
-  "description": "Standart image upload plugin for ckeditor5",
+  "name": "ckeditor5-self-image",
+  "version": "0.0.1",
+  "description": "Image upload plugin for CKEditor5 which matches API for EasyImage. Intended for use with self-hosted upload service.",
   "keywords": [
     "ckeditor5",
     "image"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pourquoi/ckeditor5-simple-upload.git"
+    "url": "https://github.com/archonic/ckeditor5-self-image.git"
   },
   "files": [
-    "src",
-    "theme"
+    "src"
   ],
-  "author": "pourquoi",
+  "author": "archonic",
   "license": "MIT",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^10.0.0",
-    "@ckeditor/ckeditor5-engine": "^10.0.0",
-    "@ckeditor/ckeditor5-upload": "^10.0.0"
-  },
-  "devDependencies": {
-    "@ckeditor/ckeditor5-editor-classic": "^10.0.0",
-    "@ckeditor/ckeditor5-utils": "^10.0.0"
+    "@ckeditor/ckeditor5-core": "^11.0.0",
+    "@ckeditor/ckeditor5-engine": "^10.2.0",
+    "@ckeditor/ckeditor5-upload": "^10.0.2"
   }
 }
