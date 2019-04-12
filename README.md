@@ -2,11 +2,14 @@
 
 Self Image replicates the API of EasyImage which makes it easier to switch to an upload solution you host yourself. Originally forked from [ckeditor5-simple-upload](https://github.com/pourquoi/ckeditor5-simple-upload).
 
+For CKEditor5 v11 use 0.0.1
+For CKEditor5 v12 use 0.0.2
+
 ```
 npm install ckeditor5-self-image
 ```
 
-Add this plugin and remove the ckfinder and easyimage plugins.
+Add this plugin and remove the ckfinder and easyimage plugins. The toolbar item entry stays as `imageUpload`.
 
 ```javascript
 // build-config.js
@@ -16,9 +19,7 @@ module.exports = {
   plugins: [
     '@ckeditor/ckeditor5-essentials/src/essentials',
     // ...
-    //'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
     //'@ckeditor/ckeditor5-easy-image/src/easyimage',
-
     'ckeditor5-self-image/src/selfupload'
     // ...
   ],
