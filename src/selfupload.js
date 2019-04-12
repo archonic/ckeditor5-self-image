@@ -1,5 +1,4 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import FileRepository from '@ckeditor/ckeditor5-upload/src/filerepository';
 import Adapter from './adapter';
 
 export default class SelfUpload extends Plugin {
