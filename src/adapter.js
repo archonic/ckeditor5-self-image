@@ -78,7 +78,7 @@ export default class Adapter {
     .then( file => {
     	// Prepare the form data.
     	const data = new FormData();
-    	data.append( 'upload', file );
+    	data.append( 'file', file );
     	// Important note: This is the right place to implement security mechanisms
     	// like authentication and CSRF protection. For instance, you can use
     	// XMLHttpRequest.setRequestHeader() to set the request headers containing
@@ -87,4 +87,5 @@ export default class Adapter {
     	this.xhr.send( data );
     } )
     .catch( reject );
+  }
 }
