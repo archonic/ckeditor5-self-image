@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-self-image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Image upload plugin for CKEditor5 which matches API for EasyImage. Intended for use with self-hosted upload service.",
   "keywords": [
     "ckeditor5",
@@ -16,8 +16,10 @@
   "author": "archonic",
   "license": "MIT",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^12.1.0",
-    "@ckeditor/ckeditor5-engine": "^v13.1.0",
-    "@ckeditor/ckeditor5-upload": "^11.0.1"
+    "@ckeditor/ckeditor5-core": ">=12.2.1",
+    "@ckeditor/ckeditor5-upload": ">=11.1.1"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-editor-classic": ">=12.1.3"
   }
 }

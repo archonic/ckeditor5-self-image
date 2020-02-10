@@ -12,6 +12,7 @@ npm install ckeditor5-self-image
 Add this plugin and remove the ckfinder and easyimage plugins. The toolbar item entry stays as `imageUpload`.
 
 ```javascript
+<<<<<<< HEAD
 // build-config.js
 
 module.exports = {
@@ -46,6 +47,58 @@ module.exports = {
 }
 
 ```
+=======
+// src/ckeditor.js
+
+import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
+import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
+//import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
+//import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+import SimpleuploadPlugin from 'ckeditor5-simple-upload/src/simpleupload'
+
+// ...
+
+// Plugins to include in the build.
+ClassicEditor.builtinPlugins = [
+	Essentials,
+	UploadAdapter,
+	Autoformat,
+	Bold,
+	Italic,
+	BlockQuote,
+//	CKFinder,
+//	EasyImage,
+	Heading,
+    Image,
+    SimpleuploadPlugin
+    // ...
+]
+
+ClassicEditor.defaultConfig = {
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'link',
+			'bulletedList',
+			'numberedList',
+			'imageUpload',
+			'blockQuote',
+			'insertTable',
+			'mediaEmbed',
+			'undo',
+			'redo'
+		]
+    },
+    
+    // ...
+}
+>>>>>>> e0f8fd368bec8f3d301ea2166fc21b77239a802d
 
 ### Configuration
 
