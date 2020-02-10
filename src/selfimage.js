@@ -3,13 +3,13 @@ import FileRepository from '@ckeditor/ckeditor5-upload/src/filerepository';
 
 import Adapter from './adapter';
 
-export default class SelfUpload extends Plugin {
+export default class SelfImage extends Plugin {
   static get requires() {
     return [FileRepository];
   }
 
   static get pluginName() {
-    return 'SelfUpload';
+    return 'SelfImage';
   }
 
   init() {
